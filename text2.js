@@ -1,0 +1,1 @@
+$('#text').circleType({position: 'absolute'});

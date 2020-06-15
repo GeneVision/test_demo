@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Pacifico&display=swap');
+body {
+    background: #f7c9c2;
+    font-family: 'Cinzel', serif;
+
+}
+
+.navbar-brand .brandName {
+    color: #EA1C2C;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: crimson;
+}
+
+.headerText {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.headerText span {
+    color: #EA1C2C;
+}
+
+.navbar.scrolled {
+    background: rgb(219, 133, 219);
+    transition: background 1s;
+}
+
+@media (max-width: 1270px) {
+
+    .headerText {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
+
+h2, h3 {
+    color: #EA1C2C;
+    font-weight: 100;
+} 
+
+.lead {
+    color: white;
+}
